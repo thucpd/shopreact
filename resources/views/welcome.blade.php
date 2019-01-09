@@ -7,11 +7,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Laravel</title>
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div id="example"></div>
-    </div>
+    <div id="example"></div>
     <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
 </body>
 </html>
